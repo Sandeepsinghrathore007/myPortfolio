@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaTwitter ,FaInstagram  } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTwitter ,FaInstagram  } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 
 export default function SocialSidebar() {
