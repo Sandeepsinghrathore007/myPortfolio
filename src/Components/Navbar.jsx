@@ -17,14 +17,16 @@ const Navbar = () => {
         </li>
 
         <li>
-          <a href="#projects" className="hover:text-purple-500 cursor-pointer">
-            Projects{" "}
+         <a href="#skills" className="hover:text-purple-500 cursor-pointer">
+            Skills{" "}
           </a>
         </li>
 
         <li>
-          <a href="#skills" className="hover:text-purple-500 cursor-pointer">
-            Skills{" "}
+          
+
+           <a href="#projects" className="hover:text-purple-500 cursor-pointer">
+            Projects{" "}
           </a>
         </li>
 
