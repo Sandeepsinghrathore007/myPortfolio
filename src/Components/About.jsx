@@ -1,4 +1,4 @@
-import { FaReact, FaNodeJs } from "react-icons/fa";
+import { FaReact, FaNodeJs } from "react-icons/fa6";
 import { SiJavascript, SiMongodb, SiTailwindcss } from "react-icons/si";
 import { SiFirebase, SiMysql } from "react-icons/si";
 
