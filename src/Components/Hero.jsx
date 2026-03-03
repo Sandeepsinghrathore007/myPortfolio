@@ -35,13 +35,13 @@ const Hero = () => {
         </div>
 
         {/* Right Side - Image */}
-        <div className="w-80 h-80 md:w-[450px] md:h-[450px]">
-          <img
-            src={profileImage}
-            alt="Sandeep"
-            className="w-full h-full object-cover rounded-xl shadow-xl"
-          />
-        </div>
+       <div className="w-80 md:w-[450px]">
+  <img
+    src={profileImage}
+    alt="Sandeep"
+    className="w-full h-auto object-contain rounded-xl shadow-xl"
+  />
+</div>
 
       </div>
     </section>
