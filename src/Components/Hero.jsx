@@ -1,5 +1,5 @@
 import React from 'react'
-
+import profileImage from "../assets/image4.png";
 const Hero = () => {
   return  <section className="min-h-screen flex items-center bg-black text-white px-8 md:px-20">
       
@@ -35,11 +35,11 @@ const Hero = () => {
         </div>
 
         {/* Right Side - Image */}
-        <div className="w-64 h-64 md:w-80 md:h-80">
+        <div className="w-80 h-80 md:w-[450px] md:h-[450px]">
           <img
-            src="/your-photo.jpg"
+            src={profileImage}
             alt="Sandeep"
-            className="w-full h-full object-cover rounded-lg border-2 border-purple-500"
+            className="w-full h-full object-cover rounded-xl shadow-xl"
           />
         </div>
 

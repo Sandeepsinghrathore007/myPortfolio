@@ -1,5 +1,5 @@
 import ProjectCard from "./ProjectCard";
-
+import PortflioImg from "../assets/PR1.png"
 
 export default function Projects() {
   return (
@@ -15,22 +15,16 @@ export default function Projects() {
         {/* Projects Grid */}
         <div className="grid md:grid-cols-2 gap-12">
 
-          {/* Project Card 1 */}
+  
           
-<ProjectCard
-            title="Todo App"
-            description="A full-stack task manager with authentication and real-time updates."
-            tech="React • Node • MongoDB"
-            image="/project1.jpg"
-            github="#"
-            demo="#"
-          />
+
+ {/* Project Card 1 */}
 
           <ProjectCard
             title="Portfolio Website"
             description="Modern responsive portfolio built with React and Tailwind."
             tech="React • Tailwind • Vite"
-            image="/project2.jpg"
+            image={PortflioImg}
             github="#"
             demo="#"
           />
