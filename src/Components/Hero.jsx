@@ -1,7 +1,7 @@
 import React from 'react'
 import profileImage from "../assets/image4.png";
 const Hero = () => {
-  return  <section className="min-h-screen flex items-center bg-black text-white px-8 md:px-20">
+  return  <section className="min-h-screen flex items-center bg-black text-white px-8 md:px-20 pt-16 md:pt-0">
       
       <div className="flex flex-col md:flex-row items-center justify-between w-full gap-12">
 
