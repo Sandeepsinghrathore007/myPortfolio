@@ -1,5 +1,6 @@
 import React from 'react'
 import profileImage from "../assets/image4.png";
+import { TypeAnimation } from "react-type-animation";
 const Hero = () => {
   return  <section className="min-h-screen flex items-center bg-black text-white px-8 md:px-20 pt-16 md:pt-0">
       
@@ -10,10 +11,17 @@ const Hero = () => {
           <p className="text-purple-500 text-sm mb-4">
             Hi, my name is
           </p>
-
-          <h1 className="text-5xl md:text-7xl font-bold mb-4">
-            Sandeep Singh Rathore.
-          </h1>
+<h1 className="text-5xl md:text-7xl font-bold mb-4">
+  <TypeAnimation
+    sequence={[
+      "Sandeep Singh Rathore.", 
+      4000
+    ]}
+    wrapper="span"
+    speed={50}
+    repeat={Infinity}
+  />
+</h1>
 
           <h2 className="text-4xl md:text-6xl font-bold text-gray-400 mb-6">
             I build modern web & mobile apps.
@@ -35,7 +43,7 @@ const Hero = () => {
         </div>
 
         {/* Right Side - Image */}
-       <div className="w-80 md:w-[450px]">
+       <div className="w-80 md:w-[550px]">
   <img
     src={profileImage}
     alt="Sandeep"
