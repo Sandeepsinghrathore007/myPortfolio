@@ -7,9 +7,7 @@ export default function Footer() {
           © {new Date().getFullYear()} Sandeep Singh Rathore
         </p>
 
-        <p className="text-xs text-gray-600">
-          Built with React & Tailwind CSS
-        </p>
+       
 
       </div>
     </footer>

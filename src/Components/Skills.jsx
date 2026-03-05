@@ -1,4 +1,5 @@
 import { FaReact, FaNodeJs } from "react-icons/fa6";
+import { TbBrandReactNative } from "react-icons/tb";
 import { SiJavascript, SiMongodb, SiTailwindcss, SiFirebase, SiMysql } from "react-icons/si";
 
 export default function Skills() {
@@ -28,6 +29,10 @@ export default function Skills() {
               <li className="flex items-center gap-3">
                 <FaReact className="text-purple-500" /> React
               </li>
+              <li className="flex items-center gap-3">
+                <FaReact className="text-purple-500" /> React Native
+              </li>
+             
               <li className="flex items-center gap-3">
                 <SiTailwindcss className="text-purple-500" /> Tailwind CSS
               </li>
