@@ -25,8 +25,22 @@ export default function Projects() {
             description="Modern responsive portfolio built with React and Tailwind."
             tech="React • Tailwind • Vite"
             image={PortflioImg}
+            github="https://github.com/Sandeepsinghrathore007/myPortfolio"
+            demo="#"
+           
+          />
+          
+
+ {/* Project Card 2 */}
+
+          <ProjectCard
+            title="LearnLedger"
+            description="A personal study management and knowledge organization platform designed to help students structure their learning, track study progress, and maintain long-term study notes in a clean and organized system."
+            tech="React • Tailwind • Vite • Firebase"
+            image=""
             github="#"
             demo="#"
+             state="In Progress"
           />
 
 
