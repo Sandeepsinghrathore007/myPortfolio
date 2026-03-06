@@ -3,7 +3,7 @@ import profileImage from "../assets/image4.png";
 import { TypeAnimation } from "react-type-animation";
 const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center bg-black text-white px-8 md:px-20 pt-16 md:pt-0">
+    <section className="min-h-screen w-full flex items-center bg-black text-white px-8 md:px-20 pt-16 md:pt-0">
       <div className="flex flex-col md:flex-row items-center justify-between w-full gap-12">
         {/* Left Side - Text */}
         <div className="max-w-3xl">

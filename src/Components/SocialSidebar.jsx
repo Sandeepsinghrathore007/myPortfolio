@@ -3,7 +3,7 @@ import { MdEmail } from "react-icons/md";
 
 export default function SocialSidebar() {
   return (
-    <div className="fixed right-3 md:left-[30px] lg:left-0 md:left-0 md:right-auto top-1/2 -translate-y-1/2 z-50">
+    <div className="fixed left-0 top-1/2 -translate-y-1/2 z-50">
       <div className="flex flex-col gap-5 md:gap-4">
         {/* GitHub */}
         <a
@@ -11,7 +11,7 @@ export default function SocialSidebar() {
           target="_blank"
           rel="noopener noreferrer"
           className="group flex items-center bg-black border border-zinc-800 
-           translate-x-0 md:-translate-x-[70%] md:hover:translate-x-0 transition-transform duration-300 ease-out will-change-transform"
+          w-[140px] md:-translate-x-[100px] md:hover:translate-x-0 transition-transform duration-300 ease-out will-change-transform"
         >
           <span className="p-3 text-gray-400 group-hover:text-purple-500 transition">
             <FaGithub size={20} />
@@ -27,7 +27,7 @@ export default function SocialSidebar() {
           target="_blank"
           rel="noopener noreferrer"
           className="group flex items-center bg-black border border-zinc-800 
-          translate-x-0 md:-translate-x-[70%] md:hover:translate-x-0 transition-transform duration-300 ease-out will-change-transform"
+          w-[140px] md:-translate-x-[100px] md:hover:translate-x-0 transition-transform duration-300 ease-out will-change-transform"
         >
           <span className="p-3 text-gray-400 group-hover:text-purple-500 transition">
             <FaLinkedin size={20} />
@@ -41,7 +41,7 @@ export default function SocialSidebar() {
         <a
           href="mailto:sandeepsinghrathorerajpoot@gmail.com"
           className="group flex items-center bg-black border border-zinc-800 
-           translate-x-0 md:-translate-x-[70%] md:hover:translate-x-0 transition-transform duration-300 ease-out will-change-transform"
+           w-[140px] md:-translate-x-[100px] md:hover:translate-x-0 transition-transform duration-300 ease-out will-change-transform"
         >
           <span className="p-3 text-gray-400 group-hover:text-purple-500 transition">
             <MdEmail size={20} />
@@ -57,7 +57,7 @@ export default function SocialSidebar() {
           target="_blank"
           rel="noopener noreferrer"
           className="group flex items-center bg-black border border-zinc-800 
-             translate-x-0 md:-translate-x-[70%] md:hover:translate-x-0 transition-transform duration-300 ease-out will-change-transform"
+             w-[140px] md:-translate-x-[100px] md:hover:translate-x-0 transition-transform duration-300 ease-out will-change-transform"
         >
           <span className="p-3 text-gray-400 group-hover:text-purple-500 transition">
             <FaInstagram size={20} />
