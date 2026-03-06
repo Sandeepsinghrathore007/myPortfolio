@@ -20,7 +20,7 @@ export default function About() {
           <div className="md:w-2/3 text-gray-400 space-y-6 leading-relaxed">
 
             <p>
-              Hello! I’m Sandeep, a BCA student passionate about building
+              Hello! I’m Sandeep, a 4th Semester BCA student passionate about building
               modern web and mobile applications. I enjoy creating clean,
               user-friendly interfaces and solving real-world problems.
             </p>
