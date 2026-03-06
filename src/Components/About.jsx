@@ -80,10 +80,7 @@ export default function About() {
   Firebase
 </li>
 
-<li className="flex items-center gap-2">
-  <SiMysql className="text-purple-500 text-lg" />
-  SQL
-</li>
+
 
 </ul>
 
