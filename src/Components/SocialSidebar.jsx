@@ -3,7 +3,7 @@ import { MdEmail } from "react-icons/md";
 
 export default function SocialSidebar() {
   return (
-    <div className="fixed right-3 md:left-0 md:right-auto top-1/2 -translate-y-1/2 z-50">
+    <div className="fixed right-3 md:left-[30px] lg:left-0 md:left-0 md:right-auto top-1/2 -translate-y-1/2 z-50">
       <div className="flex flex-col gap-5 md:gap-4">
         {/* GitHub */}
         <a

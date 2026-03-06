@@ -9,7 +9,8 @@ import { FaGitAlt } from "react-icons/fa";
 import { SiN8N } from "react-icons/si";
 import { TbAutomation } from "react-icons/tb";
 import { FaFileWord } from "react-icons/fa";
-
+import { FaHtml5 } from "react-icons/fa";
+import { FaCss3 } from "react-icons/fa";
 
 export default function Skills() {
   return (
@@ -40,6 +41,13 @@ export default function Skills() {
               </li>
               <li className="flex items-center gap-3">
                 <FaReact className="text-purple-500" /> React Native
+              </li>
+             
+              <li className="flex items-center gap-3">
+                <FaHtml5 className="text-purple-500" /> HTML
+              </li>
+              <li className="flex items-center gap-3">
+                <FaCss3 className="text-purple-500" /> CSS
               </li>
              
               <li className="flex items-center gap-3">
@@ -104,7 +112,7 @@ export default function Skills() {
             </ul>
           </div>
 
-           {/* Programming Languages */}
+           {/*tools */}
           
           <div className="bg-zinc-950 p-8 rounded-lg border border-zinc-800 hover:border-purple-500 transition duration-300 hover:-translate-y-2">
             <h3 className="text-xl font-semibold mb-6 text-purple-500">
