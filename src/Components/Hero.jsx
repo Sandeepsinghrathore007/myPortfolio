@@ -33,13 +33,19 @@ const Hero = () => {
             React Native, and Node.js.
           </p>
 
-          <a
-            href="#projects"
-            className="inline-block px-6 py-3 border border-purple-500 text-purple-500
-                       hover:bg-purple-500 hover:text-black transition duration-300 rounded-md"
-          >
-            View My Work
-          </a>
+          {/* Buttons */}
+
+         <div className="flex gap-3 ">
+  <a
+    href="#projects"
+    className="inline-block px-5 py-3 border border-purple-500 text-purple-500
+               hover:bg-purple-500 hover:text-black transition duration-300 rounded-md"
+  >
+    View My Work
+  </a>
+
+ 
+</div>
         </div>
 
         {/* Right Side - Image */}

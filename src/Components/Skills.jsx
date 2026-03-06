@@ -1,6 +1,15 @@
 import { FaReact, FaNodeJs } from "react-icons/fa6";
 import { TbBrandReactNative } from "react-icons/tb";
+import { FaPython , } from "react-icons/fa";
 import { SiJavascript, SiMongodb, SiTailwindcss, SiFirebase, SiMysql } from "react-icons/si";
+import { SiCplusplus } from "react-icons/si";
+import { FaJava } from "react-icons/fa";
+import { VscVscode } from "react-icons/vsc";
+import { FaGitAlt } from "react-icons/fa";
+import { SiN8N } from "react-icons/si";
+import { TbAutomation } from "react-icons/tb";
+import { FaFileWord } from "react-icons/fa";
+
 
 export default function Skills() {
   return (
@@ -70,6 +79,59 @@ export default function Skills() {
               </li>
             </ul>
           </div>
+
+          {/* Programming Languages */}
+
+          <div className="bg-zinc-950 p-8 rounded-lg border border-zinc-800 hover:border-purple-500 transition duration-300 hover:-translate-y-2">
+            <h3 className="text-xl font-semibold mb-6 text-purple-500">
+              Programming languages
+            </h3>
+
+            <ul className="space-y-4 text-gray-400">
+              <li className="flex items-center gap-3">
+                <FaPython className="text-purple-500" /> Python
+              </li>
+              <li className="flex items-center gap-3">
+                 <SiJavascript className="text-purple-500" /> JavaScript
+              </li>
+              <li className="flex items-center gap-3">
+                <SiCplusplus className="text-purple-500" /> C++
+              </li>
+              <li className="flex items-center gap-3">
+                <FaJava className="text-purple-500" /> Java
+              </li>
+
+            </ul>
+          </div>
+
+           {/* Programming Languages */}
+          
+          <div className="bg-zinc-950 p-8 rounded-lg border border-zinc-800 hover:border-purple-500 transition duration-300 hover:-translate-y-2">
+            <h3 className="text-xl font-semibold mb-6 text-purple-500">
+              Tools
+            </h3>
+
+            <ul className="space-y-4 text-gray-400">
+              <li className="flex items-center gap-3">
+                <VscVscode className="text-purple-500" /> Vs Code
+              </li>
+              <li className="flex items-center gap-3">
+                 <FaGitAlt className="text-purple-500" /> Git
+              </li>
+             
+              <li className="flex items-center gap-3">
+                <SiN8N className="text-purple-500" /> N8N
+              </li>
+              <li className="flex items-center gap-3">
+                <TbAutomation className="text-purple-500" />Microsoft Power Automate
+              </li>
+              <li className="flex items-center gap-3">
+                <FaFileWord className="text-purple-500" />Microsoft Office
+              </li>
+
+            </ul>
+          </div>
+
 
         </div>
 

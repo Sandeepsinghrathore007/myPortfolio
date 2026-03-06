@@ -1,6 +1,6 @@
 export default function Logo() {
   return (
-    <div className="w-16 h-16 md:w-20 md:h-20 group cursor-pointer">
+    <div className="w-14 h-14 md:w-20 md:h-20 group cursor-pointer">
       <svg
         viewBox="0 0 100 100"
         className="w-full h-full transition duration-300 group-hover:scale-105"
