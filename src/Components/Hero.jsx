@@ -1,6 +1,7 @@
 import React from "react";
 import profileImage from "../assets/image4.png";
 import { TypeAnimation } from "react-type-animation";
+
 const Hero = () => {
   return (
     <section className="min-h-screen w-full flex items-center bg-black text-white px-8 md:px-20 pt-16 md:pt-0">
@@ -8,14 +9,26 @@ const Hero = () => {
         {/* Left Side - Text */}
         <div className="max-w-3xl">
           <p className="text-purple-500 text-sm mb-4">Hi, my name is</p>
-          <h1 className="text-5xl md:text-7xl font-bold mb-4">
-            <TypeAnimation
-              sequence={["Sandeep Singh Rathore.", 4000]}
-              wrapper="span"
-              speed={50}
-              repeat={Infinity}
-            />
-          </h1>
+
+          {/* Fixed height container prevents layout shift while typing */}
+          <div className="min-h-[80px] md:min-h-[112px] mb-4">
+            <h1 className="text-5xl md:text-7xl font-bold">
+              <TypeAnimation
+                sequence={[
+                  500,                        // initial delay before starting
+                  "Sandeep Singh Rathore.",
+                  10000,                       // pause for 3s after fully typed
+                  "",                         // delete
+                  500,                        // pause before retyping
+                ]}
+                wrapper="span"
+                speed={60}           // typing speed (higher = faster)
+                deletionSpeed={75}   // deleting speed (higher = faster)
+                repeat={Infinity}
+                cursor={true}
+              />
+            </h1>
+          </div>
 
           <h2 className="text-4xl md:text-6xl font-bold text-gray-400 mb-6">
             I build modern web & mobile apps.
@@ -28,8 +41,7 @@ const Hero = () => {
           </p>
 
           {/* Buttons */}
-
-          <div className="flex gap-3 ">
+          <div className="flex gap-3">
             <a
               href="#projects"
               className="inline-block px-5 py-3 border border-purple-500 text-purple-500
@@ -42,10 +54,9 @@ const Hero = () => {
 
         {/* Right Side - Image */}
         <div className="relative w-full max-w-[520px] flex-shrink-0 flex justify-center">
-          {/* Image Container */}
           <div
             className="relative w-full overflow-hidden 
-  rounded-[58%_42%_33%_67%/60%_45%_55%_40%]"
+            rounded-[58%_42%_33%_67%/60%_45%_55%_40%]"
           >
             <img
               src={profileImage}
