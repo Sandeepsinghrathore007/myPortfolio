@@ -1,5 +1,6 @@
 import ProjectCard from "./ProjectCard";
 import PortflioImg from "../assets/PR1.png"
+import LearnLedgerImg from "../assets/learnledger.jpg";
 
 export default function Projects() {
   return (
@@ -37,10 +38,10 @@ export default function Projects() {
             title="LearnLedger"
             description="A personal study management and knowledge organization platform designed to help students structure their learning, track study progress, and maintain long-term study notes in a clean and organized system."
             tech="React • Tailwind • Vite • Firebase"
-            image=""
-            github="#"
-            demo="#"
-             state="In Progress"
+            image={LearnLedgerImg}
+            github="https://github.com/Sandeepsinghrathore007/Learnledger"
+            demo="https://sandeepsinghrathore007.github.io/Learnledger/"
+             
           />
 
 

@@ -32,10 +32,10 @@ export default function ProjectCard({ title, description, tech, image, github, d
         </p>
 
         <div className="flex gap-4 text-sm">
-          <a href={github} className="hover:text-purple-500 transition">
+          <a href={github} target="_blank" className="hover:text-purple-500 transition">
             GitHub
           </a>
-          <a href={demo} className="hover:text-purple-500 transition">
+          <a href={demo} target="_blank" className="hover:text-purple-500 transition">
             Live Demo
           </a>
         </div>
